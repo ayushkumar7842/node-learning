@@ -47,18 +47,26 @@ console.log('filePath',filePath);
 // console.log('last-line');
 
 //async-await
+let obj = {
+    name:'vikas',
+    age:21,
+    weight:50,
+    is_married:'no'
+}
 async function readAndWriteFile(readFilePath,writeFilePath){
     try {
         let dataToWrite = await fs_promise.readFile(readFilePath,{encoding:'utf-8'});
-        await fs_promise.appendFile(writeFilePath,dataToWrite);
-        await fs_promise.appendFile(writeFilePath,dataToWrite);
+        for(key in obj){
+            let placeHolder = `{{--${key.toUpperCase()}--}}`;
+            dataToWrite = dataToWrite.replace(placeHolder,obj[key]);
+        } 
+        await fs_promise.writeFile(writeFilePath,dataToWrite);
         console.log('read-write-operation-success');
     } catch (error) {
         console.log('error',error);
         
     }
 }
-
 readAndWriteFile(filePath,'./index2.html');
 
 console.log('last-line');

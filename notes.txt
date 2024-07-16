@@ -7,3 +7,21 @@ filesystem
  npm init -y       
 
  node_modules
+
+ filesystem 
+  read a file (sync/async)
+  async
+   callback
+   promise
+   async/await
+  write a file
+
+  replace a placeholder
+   debugger
+   postman
+  server how i can send different file 
+  req 
+   url --> resoucres 
+   method --> GET ,POST 
+    
+
