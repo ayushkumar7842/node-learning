@@ -1,0 +1,9 @@
+filesystem
+ read a file
+ write a file 
+ delete a file 
+ create a file
+
+ npm init -y       
+
+ node_modules
