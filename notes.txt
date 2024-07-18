@@ -1,27 +1,21 @@
-filesystem
- read a file
- write a file 
- delete a file 
- create a file
+//
+ // send an email ;
+ // how to use third party module 
 
- npm init -y       
+ //recive an email 
+ // read an email 
 
- node_modules
+ //event in node js
+ //write an function to send mail to yourself which content is table you created in seperate html file
 
- filesystem 
-  read a file (sync/async)
-  async
-   callback
-   promise
-   async/await
-  write a file
+ events in node js 
+ //data is coming 
+ //click 
+ //custom event 
+ //submit 
 
-  replace a placeholder
-   debugger
-   postman
-  server how i can send different file 
-  req 
-   url --> resoucres 
-   method --> GET ,POST 
-    
-
+ node js 
+  //built in event --> it is created by node js
+  //listerner --> when my port is ready to accept connection
+   
+  //custom event
